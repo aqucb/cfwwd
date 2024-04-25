@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grab & Dine</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+    <div class="nav">
+        <img src="chef.png">    <br>
+        <a href="home.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="about.html">about</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</body>
+</html>
+
+<div class="pg1">
+<!--form element-->
+    <section class="additional-info">
+        <h2>Stay Updated with Podelysium</h2>
+        <p>Subscribe to our newsletter to receive the latest news and reviews directly to your inbox
+
+            <form name="myform" action="/action_page.php"   
+   onsubmit="return validationForm()" method="post">
+       <label for="fname">First name:</label>
+       <input type="text" id="fname" name="fname"><br><br>
+<br> 
+    <button type="submit" value="Submit"> Submit</button>
+     </form> 
+</section>
+
+<script>
+    function validationForm() {
+        let x = document.forms["myForm"]["fname"].value;
+        if (x =="Abdul"){
+            alert("User name accepted");
+            return false;
+        }
+        }
+        </Script>
+
+</div>
+</script>
+
+     
